@@ -1,0 +1,19 @@
+-dfeed/2 0 
+(-dfeed/2)-wfeed 0 
+(-dfeed/2)-wfeed hfeed 
+-ldip/2 hfeed 
+-ldip/2 hfeed+hdip 
+ldip/2 hfeed+hdip 
+ldip/2 hfeed 
+(dfeed/2)+wfeed hfeed 
+(dfeed/2)+wfeed 0 
+dfeed/2 0 
+dfeed/2 hfeed+wdip 
+(ldip/2)-wdip hfeed+wdip 
+(ldip/2)-wdip hfeed+hdip-wdip 
+(-ldip/2)+wdip hfeed+hdip-wdip 
+(-ldip/2)+wdip hfeed+hdip-wdip 
+(-ldip/2)+wdip hfeed+wdip 
+-dfeed/2 hfeed+wdip 
+-dfeed/2 0 
+  

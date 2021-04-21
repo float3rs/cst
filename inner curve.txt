@@ -1,0 +1,18 @@
+(-dfeed/2)+wfeed+offset 0 
+(-dfeed/2)-wfeed+wfeed+offset 0 
+(-dfeed/2)-wfeed+wfeed+offset hfeed+wdip+offset 
+(-ldip/2)+wdip+offset hfeed+wdip+offset 
+(-ldip/2)+wdip+offset hfeed+hdip-wdip-offset 
+(ldip/2)-wdip-offset hfeed+hdip-wdip-offset 
+(ldip/2)-wdip-offset hfeed+wdip+offset 
+(dfeed/2)+wfeed-wfeed-offset hfeed+wdip+offset 
+(dfeed/2)+wfeed-wfeed-offset 0 
+(dfeed/2)-wfeed-offset 0 
+(dfeed/2)-wfeed-offset hfeed+wdip+offset+wdip 
+(ldip/2)-wdip-offset-wdip hfeed+wdip+offset+wdip 
+(ldip/2)-wdip-offset-wdip hfeed+hdip-wdip-offset-wdip 
+(-ldip/2)+wdip+offset+wdip hfeed+hdip-wdip-offset-wdip 
+(-ldip/2)+wdip+offset+wdip hfeed+wdip+offset+wdip 
+(-dfeed/2)+offset+wfeed hfeed+wdip+offset+wdip 
+(-dfeed/2)+offset+wfeed 0 
+  
