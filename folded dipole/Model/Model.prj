@@ -5,7 +5,7 @@
 [Author]
 nikos
 [Mesh Cells]
-
+13,248
 [Mesh Type]
 Hexahedral
 [Last Problem Type]
@@ -17,5 +17,5 @@ t
 [Results]
 Unavailable
 [Modeler Unique ID]
-5:folded dipole.cst?c43968e4a985d0dbae042b165eb2f394?27111:numberofparameters=13:port=1>mode=1>zre=0>zim=0:::dfeed?hconn?hdip?hfeed?hsubs?k?ldip?lsubs?offset?tcond?tsubs?wdip?wfeed
+5:folded dipole.cst?5e593920010e47a29cd7e5c9aab84017?42471:numberofparameters=16:port=1>mode=1>zre=0>zim=0:::dfeed?fcen?fmax?fmin?hconn?hdip?hfeed?hsubs?k?ldip?lsubs?offset?tcond?tsubs?wdip?wfeed
 [Comment]

@@ -1,16 +1,16 @@
 2015_07_22
-[GSCALE: 1]
+[GSCALE: 0.001]
 [PCB_BODIES: False]
 [PCB_IMPORT: False]
 [PCB_IMPORT_NEW: False]
 [DISABLE_FAST_LOAD: False]
 [WCS: 0 0 0 0 0 1 1 0 0]
-[BBOX:-28.550000000000001 28.550000000000001 0 27 -9.5700000000000003 9.5700000000000003]
+[BBOX:-49.368920694444448 49.368920694444448 -20.818920694444447 47.818920694444444 -30.388920694444447 30.388920694444447]
 [BBOX_STRUCTURE:-28.550000000000001 28.550000000000001 0 27 -9.5700000000000003 9.5700000000000003]
 [UNITS]
-     .Geometry "m" 
-     .Frequency "Hz" 
-     .Time "s" 
+     .Geometry "mm" 
+     .Frequency "GHz" 
+     .Time "ns" 
      .TemperatureUnit "Kelvin" 
      .Voltage "V" 
      .Current "A" 
@@ -21,8 +21,11 @@
      .SetResultUnit "frequency", "frequency", "" 
 [ENDUNITS]
 [FREQUENCYRANGE]
-Solver.FrequencyRange "0.0", "0.0" 
+Solver.FrequencyRange "3.0600000000000001", "4.1399999999999997" 
 [ENDFREQUENCYRANGE]
+[FREQUENCYRANGE_PARAMETRIC]
+Solver.FrequencyRange "fmin", "fmax" 
+[ENDFREQUENCYRANGE_PARAMETRIC]
 [BACKGROUND]
      .XminSpace "0.0" 
      .XmaxSpace "0.0" 

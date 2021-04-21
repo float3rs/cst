@@ -2,6 +2,10 @@
 @DOUBLE
 -k*tsubs
 -9.57
+fmax
+4.14
+fmin
+3.06
 k*tsubs
 9.57
 @LONG

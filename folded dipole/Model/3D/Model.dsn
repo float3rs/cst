@@ -25,9 +25,9 @@ PortSourceGroups:
 FloquetPortSourceGroups:
 SchematicPortSourceGroups:
 Number of frequency-points: 1
-Fmin: 0.000000e+00
-Fmax: 0.000000e+00
-Fscale: 1.000000e+00
+Fmin: 3.060000e+09
+Fmax: 4.140000e+09
+Fscale: 1.000000e+09
 
 
 
@@ -45,4 +45,26 @@ PortModeConsState: 0
 
 
 
+
+*** newmonitor
+monname: "field-source (f=3.6)"
+nmonfrequencies: 1
+monfrequencies: "3.6000000000000001" 
+montype: 86
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
+
+*** newmonitor
+monname: "h-field (f=3.6)"
+nmonfrequencies: 1
+monfrequencies: "3.6000000000000001" 
+montype: 1
+mondomain: 1
+mon_fmin: ""
+mon_fmax: ""
+mon_nfSteps: ""
+*** endmonitor
 
