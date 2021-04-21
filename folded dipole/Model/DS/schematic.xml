@@ -3,6 +3,14 @@
     <BasePath>C:\Users\nikos\Documents\hack\cst\folded dipole\Model\DS</BasePath>
     <Block Id="1" ForeignId="46124760" Class="MWSSCHEM" ImageIndex="1">
         <Size Height="150" Width="150"/>
+        <Pins Options="" Distribution="Custom">
+            <Pin Index="0" Port="0" BlockPosition="Left">
+                <Label>1</Label>
+            </Pin>
+            <Ports>
+                <Port Name="1" Label=""/>
+            </Ports>
+        </Pins>
         <Image FileName="../3D/Model.dib" Scale="AutoFit">
             <Size Height="392" Width="512"/>
         </Image>

@@ -80,9 +80,9 @@
         },
         {
             "descr": "waveport extension factor",
-            "expr": "7.5",
+            "expr": "6.38",
             "name": "k",
-            "value": "7.5"
+            "value": "6.38"
         },
         {
             "descr": "dielectric losses",

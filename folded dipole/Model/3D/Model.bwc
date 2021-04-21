@@ -1,5 +1,63 @@
-2900 0 0 0           
-20 CST MICROWAVE STUDIO 14 ACIS 29.0.1 NT 24 Wed Apr 21 11:45:00 2021 
+2900 0 2 0           
+20 CST MICROWAVE STUDIO 14 ACIS 29.0.1 NT 24 Wed Apr 21 12:02:59 2021 
 1000 9.9999999999999995e-07 1e-10 
-T @77 3XAA65TNV4_3KTAVUCT_MB3SP2N385P2W8Q3QX6DK8_VER6C7ARCQ86CYDFMJ8NB3CMUEJQ27ARBF 
+T @77 BFUQD6AB_M7VX9AB725JTSS6464M3DQANARBJ6PHQBSKQJQX6A4VF6NVABPVP87WJ8RKJEPC7C6MF 
+face $2 -1 -1 $-1 $-1 $3 $-1 $-1 $4 forward single F F #
+face $5 -1 -1 $-1 $-1 $6 $-1 $-1 $7 forward single F F #
+name_attrib-gen-attrib $-1 -1 $8 $-1 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @21 ncomponent2:conductor #
+loop $-1 -1 -1 $-1 $-1 $9 $0 F unknown #
+plane-surface $-1 -1 -1 $-1 -0.66999999999999993 0 0 0 -1 0 1 -0 -0 forward_v I I I I #
+name_attrib-gen-attrib $-1 -1 $10 $-1 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @21 ncomponent2:conductor #
+loop $-1 -1 -1 $-1 $-1 $11 $1 F unknown #
+plane-surface $-1 -1 -1 $-1 0.66999999999999993 0 0 0 -1 0 1 -0 -0 forward_v I I I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $12 $2 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @17 backwd_pickNumber 1 #
+coedge $-1 -1 -1 $-1 $13 $14 $-1 $15 forward $3 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $16 $5 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @17 backwd_pickNumber 2 #
+coedge $-1 -1 -1 $-1 $17 $18 $-1 $19 forward $6 $-1 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $20 $8 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @18 backwd_blockNumber 38 #
+coedge $-1 -1 -1 $-1 $21 $9 $-1 $22 reversed $3 $-1 #
+coedge $-1 -1 -1 $-1 $9 $21 $-1 $23 forward $3 $-1 #
+edge $-1 -1 -1 $-1 $24 0 $25 0.72999999999999998 $9 $26 forward @7 unknown F #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $27 $10 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @18 backwd_blockNumber 38 #
+coedge $-1 -1 -1 $-1 $28 $11 $-1 $29 reversed $6 $-1 #
+coedge $-1 -1 -1 $-1 $11 $28 $-1 $30 forward $6 $-1 #
+edge $-1 -1 -1 $-1 $31 0 $32 0.72999999999999998 $11 $33 forward @7 unknown F #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $34 $12 $0 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @9 backwd_id 46 #
+coedge $-1 -1 -1 $-1 $14 $13 $-1 $35 reversed $3 $-1 #
+edge $-1 -1 -1 $-1 $36 0 $25 0.035000000000000003 $13 $37 forward @7 unknown F #
+edge $-1 -1 -1 $-1 $38 0 $24 0.035000000000000003 $14 $39 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $23 $40 #
+vertex $-1 -1 -1 $-1 $22 $41 #
+straight-curve $-1 -1 -1 $-1 -0.11 0 0.035000000000000003 -1 0 0 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $42 $16 $1 2 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @9 backwd_id 38 #
+coedge $-1 -1 -1 $-1 $18 $17 $-1 $43 reversed $6 $-1 #
+edge $-1 -1 -1 $-1 $44 0 $32 0.035000000000000003 $17 $45 forward @7 unknown F #
+edge $-1 -1 -1 $-1 $46 0 $31 0.035000000000000003 $18 $47 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $30 $48 #
+vertex $-1 -1 -1 $-1 $29 $49 #
+straight-curve $-1 -1 -1 $-1 0.83999999999999997 0 0.035000000000000003 -1 0 0 I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $50 $20 $0 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @4 mpfm 46 #
+edge $-1 -1 -1 $-1 $38 -0.39000000000000001 $36 0.33999999999999997 $21 $51 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $35 $52 #
+straight-curve $-1 -1 -1 $-1 -0.83999999999999997 0 0 0 0 1 I I #
+vertex $-1 -1 -1 $-1 $35 $53 #
+straight-curve $-1 -1 -1 $-1 -0.11 0 0 0 0 1 I I #
+point $-1 -1 -1 $-1 -0.11 0 0.035000000000000003 #
+point $-1 -1 -1 $-1 -0.83999999999999997 0 0.035000000000000003 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $54 $27 $1 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @4 mpfm 38 #
+edge $-1 -1 -1 $-1 $46 0 $44 0.72999999999999998 $28 $55 forward @7 unknown F #
+vertex $-1 -1 -1 $-1 $43 $56 #
+straight-curve $-1 -1 -1 $-1 0.11 0 0 0 0 1 I I #
+vertex $-1 -1 -1 $-1 $30 $57 #
+straight-curve $-1 -1 -1 $-1 0.83999999999999997 0 0 0 0 1 I I #
+point $-1 -1 -1 $-1 0.83999999999999997 0 0.035000000000000003 #
+point $-1 -1 -1 $-1 0.11 0 0.035000000000000003 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $34 $0 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @5 mpfms @20 component2:conductor #
+straight-curve $-1 -1 -1 $-1 -0.5 0 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 -0.83999999999999997 0 0 #
+point $-1 -1 -1 $-1 -0.11 0 0 #
+string_attrib-name_attrib-gen-attrib $-1 -1 $-1 $42 $1 2 4 2 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 @5 mpfms @20 component2:conductor #
+straight-curve $-1 -1 -1 $-1 0.83999999999999997 0 0 -1 0 0 I I #
+point $-1 -1 -1 $-1 0.11 0 0 #
+point $-1 -1 -1 $-1 0.83999999999999997 0 0 #
 End-of-ACIS-data 

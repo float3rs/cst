@@ -1,10 +1,10 @@
 *** File Version: 20.00
 
-Number of ports: 0
-Portnames:
-Modenumbers:
-Porttypes:
-Portlabels:
+Number of ports: 1
+Portnames: 1
+Modenumbers: 1
+Porttypes: 4
+Portlabels: ""
 StaticSources:
 ThermalSources:
 FloquetPortNames:
@@ -24,11 +24,24 @@ TerminalSourceGroups:
 PortSourceGroups:
 FloquetPortSourceGroups:
 SchematicPortSourceGroups:
-Number of frequency-points: 0
+Number of frequency-points: 1
 Fmin: 0.000000e+00
 Fmax: 0.000000e+00
 Fscale: 1.000000e+00
 
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 1
+Modenumber: 1
+Modetype: 4
+PortModeConsState: 0
+*** endmode
+
+*** endset
 
 
 

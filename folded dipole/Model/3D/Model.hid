@@ -158,6 +158,25 @@ Solid.Delete "component4:solid1"
 1
 [end]delete_solids
 [end]undo_item
+[start]undo_item
+[start]block_index
+38
+[end]block_index
+[start]command
+
+'@ define port: 1
+ (undo)
+[end]command
+[start]content
+Port.Delete "1"
+[end]content
+[start]recover_picks
+1
+[end]recover_picks
+[start]delete_solids
+0
+[end]delete_solids
+[end]undo_item
 [end]history_fast_undo
 [start]PortAndLumpedLabelState
 [start]ShowLabels
