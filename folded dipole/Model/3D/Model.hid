@@ -12,13 +12,10 @@ delete(11 );
 1
 [end]block_index
 [start]command
-
 '@ activate global coordinates
-
 [end]command
 [start]content
 WCS.ActivateWCS "global"
-
 [end]content
 [start]recover_picks
 0
@@ -32,13 +29,10 @@ WCS.ActivateWCS "global"
 2
 [end]block_index
 [start]command
-
 '@ activate local coordinates
-
 [end]command
 [start]content
 WCS.ActivateWCS "local"
-
 [end]content
 [start]recover_picks
 0
@@ -52,13 +46,10 @@ WCS.ActivateWCS "local"
 3
 [end]block_index
 [start]command
-
 '@ activate global coordinates
-
 [end]command
 [start]content
 WCS.ActivateWCS "global"
-
 [end]content
 [start]recover_picks
 0
@@ -72,13 +63,10 @@ WCS.ActivateWCS "global"
 4
 [end]block_index
 [start]command
-
 '@ activate local coordinates
-
 [end]command
 [start]content
 WCS.ActivateWCS "local"
-
 [end]content
 [start]recover_picks
 0
@@ -92,13 +80,10 @@ WCS.ActivateWCS "local"
 5
 [end]block_index
 [start]command
-
 '@ activate global coordinates
-
 [end]command
 [start]content
 WCS.ActivateWCS "global"
-
 [end]content
 [start]recover_picks
 0
@@ -112,13 +97,10 @@ WCS.ActivateWCS "global"
 6
 [end]block_index
 [start]command
-
 '@ activate local coordinates
-
 [end]command
 [start]content
 WCS.ActivateWCS "local"
-
 [end]content
 [start]recover_picks
 0
@@ -134,9 +116,7 @@ WCS.ActivateWCS "local"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component1:solid1"
-
 [end]content
 [start]recover_picks
 1
@@ -150,13 +130,10 @@ Solid.Delete "component1:solid1"
 10
 [end]block_index
 [start]command
-
 '@ activate global coordinates
-
 [end]command
 [start]content
 WCS.ActivateWCS "global"
-
 [end]content
 [start]recover_picks
 0
@@ -172,9 +149,7 @@ WCS.ActivateWCS "global"
 [start]command
 [end]command
 [start]content
-
 Solid.Delete "component4:solid1"
-
 [end]content
 [start]recover_picks
 1

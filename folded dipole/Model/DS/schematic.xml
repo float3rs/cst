@@ -3,7 +3,7 @@
     <BasePath>C:\Users\nikos\Documents\hack\cst\folded dipole\Model\DS</BasePath>
     <Block Id="1" ForeignId="46124760" Class="MWSSCHEM" ImageIndex="1">
         <Size Height="150" Width="150"/>
-        <Image FileName="../../../folded dipole/Model/3D/Model.dib" Scale="AutoFit">
+        <Image FileName="../3D/Model.dib" Scale="AutoFit">
             <Size Height="392" Width="512"/>
         </Image>
         <Pos X="100" Y="0"/>
