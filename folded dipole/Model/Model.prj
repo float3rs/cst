@@ -5,7 +5,7 @@
 [Author]
 nikos
 [Mesh Cells]
-13,248
+41,745
 [Mesh Type]
 Hexahedral
 [Last Problem Type]
@@ -15,7 +15,7 @@ HF Time Domain
 [Last Solver Type Abb]
 t
 [Results]
-Unavailable
+Time Domain: S-Parameter
 [Modeler Unique ID]
-5:folded dipole.cst?5e593920010e47a29cd7e5c9aab84017?42471:numberofparameters=16:port=1>mode=1>zre=0>zim=0:::dfeed?fcen?fmax?fmin?hconn?hdip?hfeed?hsubs?k?ldip?lsubs?offset?tcond?tsubs?wdip?wfeed
+5:folded dipole.cst?d6b05c11f78a3f87cc5464e03f4f6b36?61427:numberofparameters=16:port=1>mode=1>zre=50>zim=0:::dfeed?fcen?fmax?fmin?hconn?hdip?hfeed?hsubs?k?ldip?lsubs?offset?tcond?tsubs?wdip?wfeed
 [Comment]
