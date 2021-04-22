@@ -1,0 +1,21 @@
+[Version]
+2
+[ProjectVersion]
+'# MWS Version: Version 2019.4 - Mar 01 2019 - ACIS 28.0.2 -
+[Author]
+nikos
+[Mesh Cells]
+74,360
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:foldeddipole007_optimizer.cst?d3739e1b8605b60958274df9373fd2ce?24236:numberofparameters=15:port=1>mode=1>zre=50>zim=0:::offset?k?tsubs?lsubs?hsubs?fmin?fmax?fcen?ldip?hdip?wfeed?dfeed?hfeed?wdip?tcond
+[Comment]

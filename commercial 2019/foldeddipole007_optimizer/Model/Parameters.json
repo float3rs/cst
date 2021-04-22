@@ -1,0 +1,112 @@
+{
+    "parameters": [
+        {
+            "descr": "conductor thickness",
+            "expr": "0.0335",
+            "name": "tcond",
+            "value": "0.0335"
+        },
+        {
+            "descr": "connector height",
+            "expr": "wfeed",
+            "name": "hconn",
+            "value": "0.32287407407386"
+        },
+        {
+            "descr": "dielectric losses",
+            "expr": "0.015",
+            "name": "tan_d",
+            "value": "0.015"
+        },
+        {
+            "descr": "dipole line width",
+            "expr": "0.69731860377688",
+            "name": "wdip",
+            "value": "0.69731860377688"
+        },
+        {
+            "descr": "feed line height",
+            "expr": "13",
+            "name": "hfeed",
+            "value": "13"
+        },
+        {
+            "descr": "feed line spacing",
+            "expr": "1.0538634048726",
+            "name": "dfeed",
+            "value": "1.0538634048726"
+        },
+        {
+            "descr": "feed line width",
+            "expr": "0.32287407407386",
+            "name": "wfeed",
+            "value": "0.32287407407386"
+        },
+        {
+            "descr": "folded dipole height",
+            "expr": "3.3167939567617",
+            "name": "hdip",
+            "value": "3.3167939567617"
+        },
+        {
+            "descr": "folded dipole length",
+            "expr": "28.975480670475",
+            "name": "ldip",
+            "value": "28.975480670475"
+        },
+        {
+            "descr": "frequency center",
+            "expr": "3.6",
+            "name": "fcen",
+            "value": "3.6"
+        },
+        {
+            "descr": "frequency max",
+            "expr": "1.15*fcen",
+            "name": "fmax",
+            "value": "4.14"
+        },
+        {
+            "descr": "frequency min",
+            "expr": "0.85*fcen",
+            "name": "fmin",
+            "value": "3.06"
+        },
+        {
+            "descr": "substrate height",
+            "expr": "2*hfeed*dfeed",
+            "name": "hsubs",
+            "value": "27.4004485266876"
+        },
+        {
+            "descr": "substrate length",
+            "expr": "2*ldip",
+            "name": "lsubs",
+            "value": "57.95096134095"
+        },
+        {
+            "descr": "sustrate relative permitivity",
+            "expr": "4.35",
+            "name": "er",
+            "value": "4.35"
+        },
+        {
+            "descr": "substrate thickness",
+            "expr": "1.5",
+            "name": "tsubs",
+            "value": "1.5"
+        },
+        {
+            "descr": "waveport extension factor",
+            "expr": "6.78",
+            "name": "k",
+            "value": "6.78"
+        },
+        {
+            "expr": "0.018874874510665",
+            "name": "offset",
+            "value": "0.018874874510665"
+        }
+    ],
+    "version": 1
+}

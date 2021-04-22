@@ -1,0 +1,13 @@
+@CACHEFILEVERSION 2
+@DOUBLE
+(dfeed/2#)+wfeed+(k*tsubs)
+11.01
+-(dfeed/2#)-wfeed-(k*tsubs)
+-11.01
+-(dfeed/2#)-wfeed-k*tsubs
+-11.01
+-(k*tsubs)
+-10.17
+K*tsubs
+10.17
+@LONG

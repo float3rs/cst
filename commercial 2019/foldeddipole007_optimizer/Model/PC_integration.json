@@ -1,0 +1,70 @@
+{
+   "inputVariables": [
+      {
+         "name": "tcond",
+         "type": "float",
+         "value": 0.0335
+      },
+      {
+         "name": "tan_d",
+         "type": "float",
+         "value": 0.015
+      },
+      {
+         "name": "wdip",
+         "type": "float",
+         "value": 0.69731860377688
+      },
+      {
+         "name": "hfeed",
+         "type": "float",
+         "value": 13.0
+      },
+      {
+         "name": "dfeed",
+         "type": "float",
+         "value": 1.0538634048726
+      },
+      {
+         "name": "wfeed",
+         "type": "float",
+         "value": 0.32287407407386
+      },
+      {
+         "name": "hdip",
+         "type": "float",
+         "value": 3.3167939567617
+      },
+      {
+         "name": "ldip",
+         "type": "float",
+         "value": 28.975480670475
+      },
+      {
+         "name": "fcen",
+         "type": "float",
+         "value": 3.6
+      },
+      {
+         "name": "er",
+         "type": "float",
+         "value": 4.35
+      },
+      {
+         "name": "tsubs",
+         "type": "float",
+         "value": 1.5
+      },
+      {
+         "name": "k",
+         "type": "float",
+         "value": 6.78
+      },
+      {
+         "name": "offset",
+         "type": "float",
+         "value": 0.018874874510665
+      }
+   ],
+   "outputVariables": []
+}

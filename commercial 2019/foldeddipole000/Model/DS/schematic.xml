@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SchematicTopology Version="2.3" Seed="1" Grid="25">
+    <BasePath>C:/Users/nikos/Documents/hack/cst/commercial 2019/foldeddipole000/Model/DS</BasePath>
+    <Block ForeignId="440387118" Id="1" Class="MWSSCHEM">
+        <Size Height="150" Width="150"/>
+        <Image Scale="AutoFit" FileName="../3D/Model.dib">
+            <Size Height="392" Width="512"/>
+        </Image>
+        <Pos X="75" Y="75"/>
+        <ToolTip>CST MICROWAVE STUDIO schematic block MWSSCHEM1</ToolTip>
+    </Block>
+</SchematicTopology>

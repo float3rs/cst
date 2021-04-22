@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CSTAuxiliaryGeometry creator="modeler" version="20170928">
+  <Objects>
+    <Object name="Ports\port1" id="3">
+      <Sphere dimension="4 4 4" material="$PortMaterial$" position="-0.5174942612648 0 0.01675000041723" short="1" text="1(1+)"/>
+      <Sphere dimension="4 4 4" material="$PortMaterial$" position="0.5174942612648 0 0.01675000041723" short="1" text="1(1-)"/>
+      <LineSet material="$PortMaterial$" points="-11.0198059082 0 10.17000007629 11.0198059082 0 10.17000007629 11.0198059082 0 -10.17000007629 -11.0198059082 0 -10.17000007629 -11.0198059082 0 10.17000007629" stripped="1"/>
+    </Object>
+  </Objects>
+  <Materials/>
+</CSTAuxiliaryGeometry>

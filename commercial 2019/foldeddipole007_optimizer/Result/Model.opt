@@ -1,0 +1,872 @@
+22/Apr/2021 12:31:08  Optimizer Settings:
+                      
+                      Optimizer type: Trust Region Framework
+                      		Type: Local linear models on primary data
+                      .		Min trust region size (in unit cube): 0.01
+                      		Sigma (measure for globalness): 0.2
+                      			Finite difference delta: 0.01
+                      			Tabu list vicinity radius: 0
+                      			Initial exploration threshold: 0
+                      		Surrogate optimization strategy: Nelder Mead Simplex Algorithm
+                      
+                      ---------------------------------------------------------------------------------------
+                      
+                      Parameters used for optimization:
+                      ---------------------------------------------------------------------------------------
+                      | name                    |          min |          max |      initial |
+                      ---------------------------------------------------------------------------------------
+                      | dfeed                   |          0.9 |          1.1 |            1 |
+                      | hdip                    |         2.97 |         3.63 |          3.3 |
+                      | ldip                    |       25.695 |       31.405 |        28.55 |
+                      | offset                  |        0.018 |        0.022 |         0.02 |
+                      | wdip                    |        0.621 |        0.759 |         0.69 |
+                      | wfeed                   |        0.306 |        0.374 |         0.34 |
+                      ---------------------------------------------------------------------------------------
+                      
+                      Goal functionals used for optimization:
+                      
+                      1DC: 1D Results\S-Parameters\S1,1: operate by "move min" with target fcen in range: total, weighted: 1.0
+                      1DC: 1D Results\Z Matrix\Z1,1: operate by "=" with target 50 in range: 3.6, weighted: 1.0
+                      1DC: 1D Results\Z Matrix\Z1,1: operate by "<" with target 0.0 in range: 3.6, weighted: 1.0
+22/Apr/2021 12:31:08  
+                      ________________________________________________________________________
+22/Apr/2021 12:31:08  
+                      Extracted data from previously calculated system for parameters:
+
+22/Apr/2021 12:31:08  	dfeed = 1 
+22/Apr/2021 12:31:08  	hdip = 3.3 
+22/Apr/2021 12:31:08  	ldip = 28.55 
+22/Apr/2021 12:31:08  	offset = 0.02 
+22/Apr/2021 12:31:08  	wdip = 0.69 
+22/Apr/2021 12:31:08  	wfeed = 0.34 
+22/Apr/2021 12:31:08  
+                      (Corresponding to run ID: 1)
+22/Apr/2021 12:31:08  
+22/Apr/2021 12:31:08  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:31:08  	Best goal function value   = 25.4845 (Solver)
+22/Apr/2021 12:31:08  	Last goal function value   = 25.4845 (Solver)
+22/Apr/2021 12:31:50  
+                      ________________________________________________________________________
+                      
+                      Optimizer is creating a backup of the project including results.
+
+
+
+22/Apr/2021 12:31:51  
+                      ________________________________________________________________________
+22/Apr/2021 12:31:51  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:31:51  	dfeed = 1.002 
+22/Apr/2021 12:31:51  	hdip = 3.3 
+22/Apr/2021 12:31:51  	ldip = 28.55 
+22/Apr/2021 12:31:51  	offset = 0.02 
+22/Apr/2021 12:31:51  	wdip = 0.69 
+22/Apr/2021 12:31:51  	wfeed = 0.34 
+22/Apr/2021 12:31:51  
+22/Apr/2021 12:31:51  
+                      Created complete backup of the project. (1.14 sec)
+
+22/Apr/2021 12:31:51  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:31:51  	Best goal function value   = 25.2933 (Solver)
+22/Apr/2021 12:31:51  	Last goal function value   = 25.2933 (Solver)
+22/Apr/2021 12:31:51  	Solver time = 00:00:39 h
+22/Apr/2021 12:31:51  	Parameter update time   = 00:00:03 h
+22/Apr/2021 12:32:33  
+                      ________________________________________________________________________
+22/Apr/2021 12:32:33  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:32:33  	dfeed = 1 
+22/Apr/2021 12:32:33  	hdip = 3.3066 
+22/Apr/2021 12:32:33  	ldip = 28.55 
+22/Apr/2021 12:32:33  	offset = 0.02 
+22/Apr/2021 12:32:33  	wdip = 0.69 
+22/Apr/2021 12:32:33  	wfeed = 0.34 
+22/Apr/2021 12:32:33  
+22/Apr/2021 12:32:33  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:32:33  	Best goal function value   = 25.2933 (Solver)
+22/Apr/2021 12:32:33  	Last goal function value   = 25.527 (Solver)
+22/Apr/2021 12:32:33  	Solver time = 00:00:40 h
+22/Apr/2021 12:32:33  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:33:14  
+                      ________________________________________________________________________
+22/Apr/2021 12:33:14  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:33:14  	dfeed = 1 
+22/Apr/2021 12:33:14  	hdip = 3.3 
+22/Apr/2021 12:33:14  	ldip = 28.6071 
+22/Apr/2021 12:33:14  	offset = 0.02 
+22/Apr/2021 12:33:14  	wdip = 0.69 
+22/Apr/2021 12:33:14  	wfeed = 0.34 
+22/Apr/2021 12:33:14  
+22/Apr/2021 12:33:14  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:33:14  	Best goal function value   = 25.2933 (Solver)
+22/Apr/2021 12:33:14  	Last goal function value   = 25.6043 (Solver)
+22/Apr/2021 12:33:14  	Solver time = 00:00:39 h
+22/Apr/2021 12:33:14  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:33:56  
+                      ________________________________________________________________________
+22/Apr/2021 12:33:56  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:33:56  	dfeed = 1 
+22/Apr/2021 12:33:56  	hdip = 3.3 
+22/Apr/2021 12:33:56  	ldip = 28.55 
+22/Apr/2021 12:33:56  	offset = 0.02004 
+22/Apr/2021 12:33:56  	wdip = 0.69 
+22/Apr/2021 12:33:56  	wfeed = 0.34 
+22/Apr/2021 12:33:56  
+22/Apr/2021 12:33:56  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:33:56  	Best goal function value   = 25.2933 (Solver)
+22/Apr/2021 12:33:56  	Last goal function value   = 25.4934 (Solver)
+22/Apr/2021 12:33:56  	Solver time = 00:00:40 h
+22/Apr/2021 12:33:56  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:34:37  
+                      ________________________________________________________________________
+22/Apr/2021 12:34:37  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:34:37  	dfeed = 1 
+22/Apr/2021 12:34:37  	hdip = 3.3 
+22/Apr/2021 12:34:37  	ldip = 28.55 
+22/Apr/2021 12:34:37  	offset = 0.02 
+22/Apr/2021 12:34:37  	wdip = 0.69138 
+22/Apr/2021 12:34:37  	wfeed = 0.34 
+22/Apr/2021 12:34:37  
+22/Apr/2021 12:34:37  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:34:37  	Best goal function value   = 25.2933 (Solver)
+22/Apr/2021 12:34:37  	Last goal function value   = 25.475 (Solver)
+22/Apr/2021 12:34:37  	Solver time = 00:00:40 h
+22/Apr/2021 12:34:37  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:35:18  
+                      ________________________________________________________________________
+22/Apr/2021 12:35:18  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:35:18  	dfeed = 1 
+22/Apr/2021 12:35:18  	hdip = 3.3 
+22/Apr/2021 12:35:18  	ldip = 28.55 
+22/Apr/2021 12:35:18  	offset = 0.02 
+22/Apr/2021 12:35:18  	wdip = 0.69 
+22/Apr/2021 12:35:18  	wfeed = 0.34068 
+22/Apr/2021 12:35:18  
+22/Apr/2021 12:35:18  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:35:18  	Best goal function value   = 25.2933 (Solver)
+22/Apr/2021 12:35:18  	Last goal function value   = 25.6298 (Solver)
+22/Apr/2021 12:35:18  	Solver time = 00:00:40 h
+22/Apr/2021 12:35:18  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:35:18  
+                      ________________________________________________________________________
+                      
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 12.8756 (current anchor: 25.4845)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.935607
+
+
+22/Apr/2021 12:35:56  
+                      ________________________________________________________________________
+22/Apr/2021 12:35:56  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:35:56  	dfeed = 1.08 
+22/Apr/2021 12:35:56  	hdip = 3.036 
+22/Apr/2021 12:35:56  	ldip = 30.1175 
+22/Apr/2021 12:35:56  	offset = 0.0184 
+22/Apr/2021 12:35:56  	wdip = 0.7452 
+22/Apr/2021 12:35:56  	wfeed = 0.3128 
+22/Apr/2021 12:35:56  
+22/Apr/2021 12:35:56  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:35:56  	Best goal function value   = 25.2933 (Solver)
+22/Apr/2021 12:35:56  	Last goal function value   = 70.7152 (Solver)
+22/Apr/2021 12:35:56  	Solver time = 00:00:36 h
+22/Apr/2021 12:35:56  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:35:56  
+                      ________________________________________________________________________
+                      
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 19.2417 (current anchor: 25.2933)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.297832
+
+
+22/Apr/2021 12:36:36  
+                      ________________________________________________________________________
+                      
+                      Optimizer is creating a backup of the project including results.
+
+
+
+22/Apr/2021 12:36:37  
+                      ________________________________________________________________________
+22/Apr/2021 12:36:37  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:36:37  	dfeed = 1.02867 
+22/Apr/2021 12:36:37  	hdip = 3.21242 
+22/Apr/2021 12:36:37  	ldip = 28.0154 
+22/Apr/2021 12:36:37  	offset = 0.0194675 
+22/Apr/2021 12:36:37  	wdip = 0.676874 
+22/Apr/2021 12:36:37  	wfeed = 0.330933 
+22/Apr/2021 12:36:37  
+22/Apr/2021 12:36:37  
+                      Created complete backup of the project. (1.344 sec)
+
+22/Apr/2021 12:36:37  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:36:37  	Best goal function value   = 22.8714 (Solver)
+22/Apr/2021 12:36:37  	Last goal function value   = 22.8714 (Solver)
+22/Apr/2021 12:36:37  	Solver time = 00:00:37 h
+22/Apr/2021 12:36:37  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:37:16  
+                      ________________________________________________________________________
+                      
+                      Optimizer is creating a backup of the project including results.
+
+
+
+22/Apr/2021 12:37:18  
+                      ________________________________________________________________________
+22/Apr/2021 12:37:18  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:37:18  	dfeed = 1.03067 
+22/Apr/2021 12:37:18  	hdip = 3.21242 
+22/Apr/2021 12:37:18  	ldip = 28.0154 
+22/Apr/2021 12:37:18  	offset = 0.0194675 
+22/Apr/2021 12:37:18  	wdip = 0.676874 
+22/Apr/2021 12:37:18  	wfeed = 0.330933 
+22/Apr/2021 12:37:18  
+22/Apr/2021 12:37:18  
+                      Created complete backup of the project. (1.266 sec)
+
+22/Apr/2021 12:37:18  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:37:18  	Best goal function value   = 22.7206 (Solver)
+22/Apr/2021 12:37:18  	Last goal function value   = 22.7206 (Solver)
+22/Apr/2021 12:37:18  	Solver time = 00:00:38 h
+22/Apr/2021 12:37:18  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:37:59  
+                      ________________________________________________________________________
+                      
+                      Optimizer is creating a backup of the project including results.
+
+
+
+22/Apr/2021 12:38:00  
+                      ________________________________________________________________________
+22/Apr/2021 12:38:00  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:38:00  	dfeed = 1.02867 
+22/Apr/2021 12:38:00  	hdip = 3.21902 
+22/Apr/2021 12:38:00  	ldip = 28.0154 
+22/Apr/2021 12:38:00  	offset = 0.0194675 
+22/Apr/2021 12:38:00  	wdip = 0.676874 
+22/Apr/2021 12:38:00  	wfeed = 0.330933 
+22/Apr/2021 12:38:00  
+22/Apr/2021 12:38:00  
+                      Created complete backup of the project. (1.266 sec)
+
+22/Apr/2021 12:38:00  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:38:00  	Best goal function value   = 21.9424 (Solver)
+22/Apr/2021 12:38:00  	Last goal function value   = 21.9424 (Solver)
+22/Apr/2021 12:38:00  	Solver time = 00:00:39 h
+22/Apr/2021 12:38:00  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:38:39  
+                      ________________________________________________________________________
+22/Apr/2021 12:38:39  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:38:39  	dfeed = 1.02867 
+22/Apr/2021 12:38:39  	hdip = 3.21242 
+22/Apr/2021 12:38:39  	ldip = 28.0725 
+22/Apr/2021 12:38:39  	offset = 0.0194675 
+22/Apr/2021 12:38:39  	wdip = 0.676874 
+22/Apr/2021 12:38:39  	wfeed = 0.330933 
+22/Apr/2021 12:38:39  
+22/Apr/2021 12:38:39  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:38:39  	Best goal function value   = 21.9424 (Solver)
+22/Apr/2021 12:38:39  	Last goal function value   = 22.6057 (Solver)
+22/Apr/2021 12:38:39  	Solver time = 00:00:37 h
+22/Apr/2021 12:38:39  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:39:18  
+                      ________________________________________________________________________
+22/Apr/2021 12:39:18  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:39:18  	dfeed = 1.02867 
+22/Apr/2021 12:39:18  	hdip = 3.21242 
+22/Apr/2021 12:39:18  	ldip = 28.0154 
+22/Apr/2021 12:39:18  	offset = 0.0195075 
+22/Apr/2021 12:39:18  	wdip = 0.676874 
+22/Apr/2021 12:39:18  	wfeed = 0.330933 
+22/Apr/2021 12:39:18  
+22/Apr/2021 12:39:18  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:39:18  	Best goal function value   = 21.9424 (Solver)
+22/Apr/2021 12:39:18  	Last goal function value   = 22.8782 (Solver)
+22/Apr/2021 12:39:18  	Solver time = 00:00:37 h
+22/Apr/2021 12:39:18  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:39:58  
+                      ________________________________________________________________________
+22/Apr/2021 12:39:58  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:39:58  	dfeed = 1.02867 
+22/Apr/2021 12:39:58  	hdip = 3.21242 
+22/Apr/2021 12:39:58  	ldip = 28.0154 
+22/Apr/2021 12:39:58  	offset = 0.0194675 
+22/Apr/2021 12:39:58  	wdip = 0.678254 
+22/Apr/2021 12:39:58  	wfeed = 0.330933 
+22/Apr/2021 12:39:58  
+22/Apr/2021 12:39:58  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:39:58  	Best goal function value   = 21.9424 (Solver)
+22/Apr/2021 12:39:58  	Last goal function value   = 22.8365 (Solver)
+22/Apr/2021 12:39:58  	Solver time = 00:00:38 h
+22/Apr/2021 12:39:58  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:40:38  
+                      ________________________________________________________________________
+22/Apr/2021 12:40:38  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:40:38  	dfeed = 1.02867 
+22/Apr/2021 12:40:38  	hdip = 3.21242 
+22/Apr/2021 12:40:38  	ldip = 28.0154 
+22/Apr/2021 12:40:38  	offset = 0.0194675 
+22/Apr/2021 12:40:38  	wdip = 0.676874 
+22/Apr/2021 12:40:38  	wfeed = 0.331613 
+22/Apr/2021 12:40:38  
+22/Apr/2021 12:40:38  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:40:38  	Best goal function value   = 21.9424 (Solver)
+22/Apr/2021 12:40:38  	Last goal function value   = 23.0032 (Solver)
+22/Apr/2021 12:40:38  	Solver time = 00:00:39 h
+22/Apr/2021 12:40:38  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:40:38  
+                      ________________________________________________________________________
+                      
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 2.71259 (current anchor: 22.8714)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.326599
+
+
+22/Apr/2021 12:41:16  
+                      ________________________________________________________________________
+                      
+                      Optimizer is creating a backup of the project including results.
+
+
+
+22/Apr/2021 12:41:18  
+                      ________________________________________________________________________
+22/Apr/2021 12:41:18  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:41:18  	dfeed = 1.05533 
+22/Apr/2021 12:41:18  	hdip = 3.30042 
+22/Apr/2021 12:41:18  	ldip = 28.7767 
+22/Apr/2021 12:41:18  	offset = 0.0189341 
+22/Apr/2021 12:41:18  	wdip = 0.695274 
+22/Apr/2021 12:41:18  	wfeed = 0.321867 
+22/Apr/2021 12:41:18  
+22/Apr/2021 12:41:18  
+                      Created complete backup of the project. (1.469 sec)
+
+22/Apr/2021 12:41:18  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:41:18  	Best goal function value   = 21.2777 (Solver)
+22/Apr/2021 12:41:18  	Last goal function value   = 21.2777 (Solver)
+22/Apr/2021 12:41:18  	Solver time = 00:00:37 h
+22/Apr/2021 12:41:18  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:41:57  
+                      ________________________________________________________________________
+22/Apr/2021 12:41:57  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:41:57  	dfeed = 1.05733 
+22/Apr/2021 12:41:57  	hdip = 3.30042 
+22/Apr/2021 12:41:57  	ldip = 28.7767 
+22/Apr/2021 12:41:57  	offset = 0.0189341 
+22/Apr/2021 12:41:57  	wdip = 0.695274 
+22/Apr/2021 12:41:57  	wfeed = 0.321867 
+22/Apr/2021 12:41:57  
+22/Apr/2021 12:41:57  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:41:57  	Best goal function value   = 21.2777 (Solver)
+22/Apr/2021 12:41:57  	Last goal function value   = 21.4602 (Solver)
+22/Apr/2021 12:41:57  	Solver time = 00:00:37 h
+22/Apr/2021 12:41:57  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:42:38  
+                      ________________________________________________________________________
+                      
+                      Optimizer is creating a backup of the project including results.
+
+
+
+22/Apr/2021 12:42:39  
+                      ________________________________________________________________________
+22/Apr/2021 12:42:39  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:42:39  	dfeed = 1.05533 
+22/Apr/2021 12:42:39  	hdip = 3.30702 
+22/Apr/2021 12:42:39  	ldip = 28.7767 
+22/Apr/2021 12:42:39  	offset = 0.0189341 
+22/Apr/2021 12:42:39  	wdip = 0.695274 
+22/Apr/2021 12:42:39  	wfeed = 0.321867 
+22/Apr/2021 12:42:39  
+22/Apr/2021 12:42:39  
+                      Created complete backup of the project. (1.219 sec)
+
+22/Apr/2021 12:42:39  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:42:39  	Best goal function value   = 19.4863 (Solver)
+22/Apr/2021 12:42:39  	Last goal function value   = 19.4863 (Solver)
+22/Apr/2021 12:42:39  	Solver time = 00:00:39 h
+22/Apr/2021 12:42:39  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:43:17  
+                      ________________________________________________________________________
+22/Apr/2021 12:43:17  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:43:17  	dfeed = 1.05533 
+22/Apr/2021 12:43:17  	hdip = 3.30042 
+22/Apr/2021 12:43:17  	ldip = 28.8338 
+22/Apr/2021 12:43:17  	offset = 0.0189341 
+22/Apr/2021 12:43:17  	wdip = 0.695274 
+22/Apr/2021 12:43:17  	wfeed = 0.321867 
+22/Apr/2021 12:43:17  
+22/Apr/2021 12:43:17  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:43:17  	Best goal function value   = 19.4863 (Solver)
+22/Apr/2021 12:43:17  	Last goal function value   = 20.7377 (Solver)
+22/Apr/2021 12:43:17  	Solver time = 00:00:36 h
+22/Apr/2021 12:43:17  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:43:56  
+                      ________________________________________________________________________
+22/Apr/2021 12:43:56  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:43:56  	dfeed = 1.05533 
+22/Apr/2021 12:43:56  	hdip = 3.30042 
+22/Apr/2021 12:43:56  	ldip = 28.7767 
+22/Apr/2021 12:43:56  	offset = 0.0189741 
+22/Apr/2021 12:43:56  	wdip = 0.695274 
+22/Apr/2021 12:43:56  	wfeed = 0.321867 
+22/Apr/2021 12:43:56  
+22/Apr/2021 12:43:56  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:43:56  	Best goal function value   = 19.4863 (Solver)
+22/Apr/2021 12:43:56  	Last goal function value   = 21.2672 (Solver)
+22/Apr/2021 12:43:56  	Solver time = 00:00:37 h
+22/Apr/2021 12:43:56  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:44:35  
+                      ________________________________________________________________________
+22/Apr/2021 12:44:35  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:44:35  	dfeed = 1.05533 
+22/Apr/2021 12:44:35  	hdip = 3.30042 
+22/Apr/2021 12:44:35  	ldip = 28.7767 
+22/Apr/2021 12:44:35  	offset = 0.0189341 
+22/Apr/2021 12:44:35  	wdip = 0.696654 
+22/Apr/2021 12:44:35  	wfeed = 0.321867 
+22/Apr/2021 12:44:35  
+22/Apr/2021 12:44:35  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:44:35  	Best goal function value   = 19.4863 (Solver)
+22/Apr/2021 12:44:35  	Last goal function value   = 21.267 (Solver)
+22/Apr/2021 12:44:35  	Solver time = 00:00:38 h
+22/Apr/2021 12:44:35  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:45:14  
+                      ________________________________________________________________________
+22/Apr/2021 12:45:14  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:45:14  	dfeed = 1.05533 
+22/Apr/2021 12:45:14  	hdip = 3.30042 
+22/Apr/2021 12:45:14  	ldip = 28.7767 
+22/Apr/2021 12:45:14  	offset = 0.0189341 
+22/Apr/2021 12:45:14  	wdip = 0.695274 
+22/Apr/2021 12:45:14  	wfeed = 0.322547 
+22/Apr/2021 12:45:14  
+22/Apr/2021 12:45:14  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:45:14  	Best goal function value   = 19.4863 (Solver)
+22/Apr/2021 12:45:14  	Last goal function value   = 21.0754 (Solver)
+22/Apr/2021 12:45:14  	Solver time = 00:00:37 h
+22/Apr/2021 12:45:14  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:45:14  
+                      ________________________________________________________________________
+                      
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 1.12126 (current anchor: 21.2777)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.299266
+
+
+22/Apr/2021 12:45:55  
+                      ________________________________________________________________________
+22/Apr/2021 12:45:55  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:45:55  	dfeed = 1.082 
+22/Apr/2021 12:45:55  	hdip = 3.38842 
+22/Apr/2021 12:45:55  	ldip = 28.9246 
+22/Apr/2021 12:45:55  	offset = 0.0184008 
+22/Apr/2021 12:45:55  	wdip = 0.713674 
+22/Apr/2021 12:45:55  	wfeed = 0.3128 
+22/Apr/2021 12:45:55  
+22/Apr/2021 12:45:55  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:45:55  	Best goal function value   = 19.4863 (Solver)
+22/Apr/2021 12:45:55  	Last goal function value   = 23.9075 (Solver)
+22/Apr/2021 12:45:55  	Solver time = 00:00:39 h
+22/Apr/2021 12:45:55  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:45:55  
+                      ________________________________________________________________________
+                      
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 11.38 (current anchor: 19.4863)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.105143
+
+
+22/Apr/2021 12:46:35  
+                      ________________________________________________________________________
+22/Apr/2021 12:46:35  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:46:35  	dfeed = 1.06422 
+22/Apr/2021 12:46:35  	hdip = 3.33635 
+22/Apr/2021 12:46:35  	ldip = 28.9727 
+22/Apr/2021 12:46:35  	offset = 0.0187564 
+22/Apr/2021 12:46:35  	wdip = 0.701407 
+22/Apr/2021 12:46:35  	wfeed = 0.318844 
+22/Apr/2021 12:46:35  
+22/Apr/2021 12:46:35  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:46:35  	Best goal function value   = 19.4863 (Solver)
+22/Apr/2021 12:46:35  	Last goal function value   = 19.6092 (Solver)
+22/Apr/2021 12:46:35  	Solver time = 00:00:38 h
+22/Apr/2021 12:46:35  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:46:36  
+                      ________________________________________________________________________
+                      
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 15.5983 (current anchor: 19.4863)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0339324
+
+
+22/Apr/2021 12:47:17  
+                      ________________________________________________________________________
+                      
+                      Optimizer is creating a backup of the project including results.
+
+
+
+22/Apr/2021 12:47:18  
+                      ________________________________________________________________________
+22/Apr/2021 12:47:18  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:47:18  	dfeed = 1.05386 
+22/Apr/2021 12:47:18  	hdip = 3.31679 
+22/Apr/2021 12:47:18  	ldip = 28.8613 
+22/Apr/2021 12:47:18  	offset = 0.0188749 
+22/Apr/2021 12:47:18  	wdip = 0.697319 
+22/Apr/2021 12:47:18  	wfeed = 0.322874 
+22/Apr/2021 12:47:18  
+22/Apr/2021 12:47:18  
+                      Created complete backup of the project. (1.375 sec)
+
+22/Apr/2021 12:47:18  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:47:18  	Best goal function value   = 18.3581 (Solver)
+22/Apr/2021 12:47:18  	Last goal function value   = 18.3581 (Solver)
+22/Apr/2021 12:47:18  	Solver time = 00:00:40 h
+22/Apr/2021 12:47:18  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:47:58  
+                      ________________________________________________________________________
+22/Apr/2021 12:47:58  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:47:58  	dfeed = 1.05586 
+22/Apr/2021 12:47:58  	hdip = 3.31679 
+22/Apr/2021 12:47:58  	ldip = 28.8613 
+22/Apr/2021 12:47:58  	offset = 0.0188749 
+22/Apr/2021 12:47:58  	wdip = 0.697319 
+22/Apr/2021 12:47:58  	wfeed = 0.322874 
+22/Apr/2021 12:47:58  
+22/Apr/2021 12:47:58  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:47:58  	Best goal function value   = 18.3581 (Solver)
+22/Apr/2021 12:47:58  	Last goal function value   = 18.5336 (Solver)
+22/Apr/2021 12:47:58  	Solver time = 00:00:39 h
+22/Apr/2021 12:47:58  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:48:39  
+                      ________________________________________________________________________
+22/Apr/2021 12:48:39  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:48:39  	dfeed = 1.05386 
+22/Apr/2021 12:48:39  	hdip = 3.32339 
+22/Apr/2021 12:48:39  	ldip = 28.8613 
+22/Apr/2021 12:48:39  	offset = 0.0188749 
+22/Apr/2021 12:48:39  	wdip = 0.697319 
+22/Apr/2021 12:48:39  	wfeed = 0.322874 
+22/Apr/2021 12:48:39  
+22/Apr/2021 12:48:39  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:48:39  	Best goal function value   = 18.3581 (Solver)
+22/Apr/2021 12:48:39  	Last goal function value   = 18.4389 (Solver)
+22/Apr/2021 12:48:39  	Solver time = 00:00:39 h
+22/Apr/2021 12:48:39  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:49:19  
+                      ________________________________________________________________________
+                      
+                      Optimizer is creating a backup of the project including results.
+
+
+
+22/Apr/2021 12:49:20  
+                      ________________________________________________________________________
+22/Apr/2021 12:49:20  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:49:20  	dfeed = 1.05386 
+22/Apr/2021 12:49:20  	hdip = 3.31679 
+22/Apr/2021 12:49:20  	ldip = 28.9184 
+22/Apr/2021 12:49:20  	offset = 0.0188749 
+22/Apr/2021 12:49:20  	wdip = 0.697319 
+22/Apr/2021 12:49:20  	wfeed = 0.322874 
+22/Apr/2021 12:49:20  
+22/Apr/2021 12:49:20  
+                      Created complete backup of the project. (1.266 sec)
+
+22/Apr/2021 12:49:20  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:49:20  	Best goal function value   = 17.8172 (Solver)
+22/Apr/2021 12:49:20  	Last goal function value   = 17.8172 (Solver)
+22/Apr/2021 12:49:20  	Solver time = 00:00:39 h
+22/Apr/2021 12:49:20  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:50:01  
+                      ________________________________________________________________________
+22/Apr/2021 12:50:01  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:50:01  	dfeed = 1.05386 
+22/Apr/2021 12:50:01  	hdip = 3.31679 
+22/Apr/2021 12:50:01  	ldip = 28.8613 
+22/Apr/2021 12:50:01  	offset = 0.0189149 
+22/Apr/2021 12:50:01  	wdip = 0.697319 
+22/Apr/2021 12:50:01  	wfeed = 0.322874 
+22/Apr/2021 12:50:01  
+22/Apr/2021 12:50:01  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:50:01  	Best goal function value   = 17.8172 (Solver)
+22/Apr/2021 12:50:01  	Last goal function value   = 18.348 (Solver)
+22/Apr/2021 12:50:01  	Solver time = 00:00:39 h
+22/Apr/2021 12:50:01  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:50:40  
+                      ________________________________________________________________________
+22/Apr/2021 12:50:40  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:50:40  	dfeed = 1.05386 
+22/Apr/2021 12:50:40  	hdip = 3.31679 
+22/Apr/2021 12:50:40  	ldip = 28.8613 
+22/Apr/2021 12:50:40  	offset = 0.0188749 
+22/Apr/2021 12:50:40  	wdip = 0.698699 
+22/Apr/2021 12:50:40  	wfeed = 0.322874 
+22/Apr/2021 12:50:40  
+22/Apr/2021 12:50:40  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:50:40  	Best goal function value   = 17.8172 (Solver)
+22/Apr/2021 12:50:40  	Last goal function value   = 20.2169 (Solver)
+22/Apr/2021 12:50:40  	Solver time = 00:00:37 h
+22/Apr/2021 12:50:40  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:51:20  
+                      ________________________________________________________________________
+22/Apr/2021 12:51:20  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:51:20  	dfeed = 1.05386 
+22/Apr/2021 12:51:20  	hdip = 3.31679 
+22/Apr/2021 12:51:20  	ldip = 28.8613 
+22/Apr/2021 12:51:20  	offset = 0.0188749 
+22/Apr/2021 12:51:20  	wdip = 0.697319 
+22/Apr/2021 12:51:20  	wfeed = 0.323554 
+22/Apr/2021 12:51:20  
+22/Apr/2021 12:51:20  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:51:20  	Best goal function value   = 17.8172 (Solver)
+22/Apr/2021 12:51:20  	Last goal function value   = 18.162 (Solver)
+22/Apr/2021 12:51:20  	Solver time = 00:00:38 h
+22/Apr/2021 12:51:20  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:51:21  
+                      ________________________________________________________________________
+                      
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 15.1634 (current anchor: 18.3581)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.0347413
+
+
+22/Apr/2021 12:52:02  
+                      ________________________________________________________________________
+22/Apr/2021 12:52:02  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:52:02  	dfeed = 1.05683 
+22/Apr/2021 12:52:02  	hdip = 3.30702 
+22/Apr/2021 12:52:02  	ldip = 28.9459 
+22/Apr/2021 12:52:02  	offset = 0.0188156 
+22/Apr/2021 12:52:02  	wdip = 0.695274 
+22/Apr/2021 12:52:02  	wfeed = 0.322162 
+22/Apr/2021 12:52:02  
+22/Apr/2021 12:52:02  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:52:02  	Best goal function value   = 17.8172 (Solver)
+22/Apr/2021 12:52:02  	Last goal function value   = 17.9427 (Solver)
+22/Apr/2021 12:52:02  	Solver time = 00:00:40 h
+22/Apr/2021 12:52:02  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:52:42  
+                      ________________________________________________________________________
+22/Apr/2021 12:52:42  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:52:42  	dfeed = 1.05586 
+22/Apr/2021 12:52:42  	hdip = 3.31679 
+22/Apr/2021 12:52:42  	ldip = 28.9184 
+22/Apr/2021 12:52:42  	offset = 0.0188749 
+22/Apr/2021 12:52:42  	wdip = 0.697319 
+22/Apr/2021 12:52:42  	wfeed = 0.322874 
+22/Apr/2021 12:52:42  
+22/Apr/2021 12:52:42  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:52:42  	Best goal function value   = 17.8172 (Solver)
+22/Apr/2021 12:52:42  	Last goal function value   = 17.9909 (Solver)
+22/Apr/2021 12:52:42  	Solver time = 00:00:38 h
+22/Apr/2021 12:52:42  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:53:23  
+                      ________________________________________________________________________
+22/Apr/2021 12:53:23  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:53:23  	dfeed = 1.05386 
+22/Apr/2021 12:53:23  	hdip = 3.32339 
+22/Apr/2021 12:53:23  	ldip = 28.9184 
+22/Apr/2021 12:53:23  	offset = 0.0188749 
+22/Apr/2021 12:53:23  	wdip = 0.697319 
+22/Apr/2021 12:53:23  	wfeed = 0.322874 
+22/Apr/2021 12:53:23  
+22/Apr/2021 12:53:23  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:53:23  	Best goal function value   = 17.8172 (Solver)
+22/Apr/2021 12:53:23  	Last goal function value   = 17.8986 (Solver)
+22/Apr/2021 12:53:23  	Solver time = 00:00:39 h
+22/Apr/2021 12:53:23  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:54:03  
+                      ________________________________________________________________________
+                      
+                      Optimizer is creating a backup of the project including results.
+
+
+
+22/Apr/2021 12:54:05  
+                      ________________________________________________________________________
+22/Apr/2021 12:54:05  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:54:05  	dfeed = 1.05386 
+22/Apr/2021 12:54:05  	hdip = 3.31679 
+22/Apr/2021 12:54:05  	ldip = 28.9755 
+22/Apr/2021 12:54:05  	offset = 0.0188749 
+22/Apr/2021 12:54:05  	wdip = 0.697319 
+22/Apr/2021 12:54:05  	wfeed = 0.322874 
+22/Apr/2021 12:54:05  
+22/Apr/2021 12:54:05  
+                      Created complete backup of the project. (1.172 sec)
+
+22/Apr/2021 12:54:05  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:54:05  	Best goal function value   = 17.292 (Solver)
+22/Apr/2021 12:54:05  	Last goal function value   = 17.292 (Solver)
+22/Apr/2021 12:54:05  	Solver time = 00:00:39 h
+22/Apr/2021 12:54:05  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:54:45  
+                      ________________________________________________________________________
+22/Apr/2021 12:54:45  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:54:45  	dfeed = 1.05386 
+22/Apr/2021 12:54:45  	hdip = 3.31679 
+22/Apr/2021 12:54:45  	ldip = 28.9184 
+22/Apr/2021 12:54:45  	offset = 0.0189149 
+22/Apr/2021 12:54:45  	wdip = 0.697319 
+22/Apr/2021 12:54:45  	wfeed = 0.322874 
+22/Apr/2021 12:54:45  
+22/Apr/2021 12:54:45  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:54:45  	Best goal function value   = 17.292 (Solver)
+22/Apr/2021 12:54:45  	Last goal function value   = 17.8073 (Solver)
+22/Apr/2021 12:54:45  	Solver time = 00:00:39 h
+22/Apr/2021 12:54:45  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:55:23  
+                      ________________________________________________________________________
+22/Apr/2021 12:55:23  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:55:23  	dfeed = 1.05386 
+22/Apr/2021 12:55:23  	hdip = 3.31679 
+22/Apr/2021 12:55:23  	ldip = 28.9184 
+22/Apr/2021 12:55:23  	offset = 0.0188749 
+22/Apr/2021 12:55:23  	wdip = 0.698699 
+22/Apr/2021 12:55:23  	wfeed = 0.322874 
+22/Apr/2021 12:55:23  
+22/Apr/2021 12:55:23  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:55:23  	Best goal function value   = 17.292 (Solver)
+22/Apr/2021 12:55:23  	Last goal function value   = 19.6949 (Solver)
+22/Apr/2021 12:55:23  	Solver time = 00:00:36 h
+22/Apr/2021 12:55:23  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:56:07  
+                      ________________________________________________________________________
+22/Apr/2021 12:56:07  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:56:07  	dfeed = 1.05386 
+22/Apr/2021 12:56:07  	hdip = 3.31679 
+22/Apr/2021 12:56:07  	ldip = 28.9184 
+22/Apr/2021 12:56:07  	offset = 0.0188749 
+22/Apr/2021 12:56:07  	wdip = 0.697319 
+22/Apr/2021 12:56:07  	wfeed = 0.323554 
+22/Apr/2021 12:56:07  
+22/Apr/2021 12:56:07  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:56:07  	Best goal function value   = 17.292 (Solver)
+22/Apr/2021 12:56:07  	Last goal function value   = 17.624 (Solver)
+22/Apr/2021 12:56:07  	Solver time = 00:00:42 h
+22/Apr/2021 12:56:07  	Parameter update time   = 00:00:02 h
+22/Apr/2021 12:56:07  
+                      ________________________________________________________________________
+                      
+                      Trust Region Framework: Optimization of trust region model yields a prediction of a goal of 15.118 (current anchor: 17.8172)
+                      The distance from the current anchor (in the Unit Cube) to the prediction is: 0.033806
+
+
+22/Apr/2021 12:56:50  
+                      ________________________________________________________________________
+22/Apr/2021 12:56:50  
+                      Solved problem for parameters:
+
+22/Apr/2021 12:56:50  	dfeed = 1.05683 
+22/Apr/2021 12:56:50  	hdip = 3.30702 
+22/Apr/2021 12:56:50  	ldip = 28.957 
+22/Apr/2021 12:56:50  	offset = 0.0188156 
+22/Apr/2021 12:56:50  	wdip = 0.695274 
+22/Apr/2021 12:56:50  	wfeed = 0.321867 
+22/Apr/2021 12:56:50  
+22/Apr/2021 12:56:50  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:56:50  	Best goal function value   = 17.292 (Solver)
+22/Apr/2021 12:56:50  	Last goal function value   = 17.9375 (Solver)
+22/Apr/2021 12:56:50  	Solver time = 00:00:42 h
+22/Apr/2021 12:56:50  	Parameter update time   = 00:00:01 h
+22/Apr/2021 12:56:52  
+                      ========================================================================
+22/Apr/2021 12:56:52  
+                      Recovered data for best parameters:
+
+22/Apr/2021 12:56:52  	dfeed = 1.05386 
+22/Apr/2021 12:56:52  	hdip = 3.31679 
+22/Apr/2021 12:56:52  	ldip = 28.9755 
+22/Apr/2021 12:56:52  	offset = 0.0188749 
+22/Apr/2021 12:56:52  	wdip = 0.697319 
+22/Apr/2021 12:56:52  	wfeed = 0.322874 
+22/Apr/2021 12:56:52  
+22/Apr/2021 12:56:52  
+                      Result data recovered from project backup.
+
+22/Apr/2021 12:56:52  	Initial goal function value  = 25.4845 (Solver)
+22/Apr/2021 12:56:52  	Best goal function value   = 17.292 (Solver)
+22/Apr/2021 12:56:52  	Last goal function value   = 17.292 (Solver)
+22/Apr/2021 12:56:52  
+                      ________________________________________________________________________
+
+
+22/Apr/2021 12:56:52  	Total solver time           = 00:24:23 h (38 solver runs)
+22/Apr/2021 12:56:52  	Total data recovery time    = 00:00:02 h (2 loaded)
+22/Apr/2021 12:56:52  	Total backup project time   = 00:00:12 h (9 backups)
+22/Apr/2021 12:56:52  	Total parameter update time = 00:01:02 h
+22/Apr/2021 12:56:52  	Total optimizer time        = 00:25:44 h (40 evaluations)
+
+22/Apr/2021 12:56:52  
+                      ________________________________________________________________________
+                      
+                      Optimization successfully improved the goal value. Best parameter set is stored.
+
